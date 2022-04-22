@@ -1,0 +1,299 @@
+/* 滚动条优化 */
+html[data-zhihuPlus='true'] .Favlists-items::-webkit-scrollbar,
+html[data-zhihuPlus='true'] .highlight pre::-webkit-scrollbar,
+html[data-zhihuPlus='true'] body::-webkit-scrollbar,
+html[data-zhihuPlus='true'] .CommentListV2::-webkit-scrollbar {
+  width: 4px;
+  height: 4px;
+}
+html[data-zhihuPlus='true'] .Favlists-items::-webkit-scrollbar-thumb,
+html[data-zhihuPlus='true'] .highlight pre::-webkit-scrollbar-thumb,
+html[data-zhihuPlus='true'] body::-webkit-scrollbar-thumb,
+html[data-zhihuPlus='true'] .CommentListV2::-webkit-scrollbar-thumb {
+  background-color: rgb(133 144 166 / 0.2);
+  transition: 0.2s;
+  border-radius: 2px;
+}
+html[data-zhihuPlus='true'] .Favlists-items::-webkit-scrollbar-track,
+html[data-zhihuPlus='true'] .highlight pre::-webkit-scrollbar-track,
+html[data-zhihuPlus='true'] body::-webkit-scrollbar-track,
+html[data-zhihuPlus='true'] .CommentListV2::-webkit-scrollbar-track {
+  background-color: rgba(0, 0, 0, 0);
+}
+html[data-zhihuPlus='true'] .Favlists-items::-webkit-scrollbar-thumb,
+html[data-zhihuPlus='true'] .highlight pre::-webkit-scrollbar-thumb,
+html[data-zhihuPlus='true'] body::-webkit-scrollbar-thumb,
+html[data-zhihuPlus='true'] .CommentListV2:hover::-webkit-scrollbar-thumb {
+  background-color: rgb(133 144 166 / 0.6);
+}
+/* 隐藏界面 */
+html[data-zhihuPlus='true'] .KfeCollection-PaidAnswerFooter,
+html[data-zhihuPlus='true'] .Pc-word,
+html[data-zhihuPlus='true'] .Topstory-mainColumn > .Card,
+html[data-zhihuPlus='true'] .SearchSideBar,
+html[data-zhihuPlus='true'] .SearchTabs,
+html[data-zhihuPlus='true'] .PostIndex-Contributions,
+html[data-zhihuPlus='true'] .Recommendations-Main,
+html[data-zhihuPlus='true'] .ColumnPageHeader,
+html[data-zhihuPlus='true'] .Topstory-mainColumn .TopstoryItem--advertCard,
+html[data-zhihuPlus='true'] .TopstoryMain .TopstoryItem--advertCard,
+html[data-zhihuPlus='true'] .RichText-MCNLinkCardContainer,
+html[data-zhihuPlus='true'] .Reward,
+html[data-zhihuPlus='true'] .ContentItem-meta .AuthorInfo + .Labels,
+html[data-zhihuPlus='true'] .QuestionHeader,
+html[data-zhihuPlus='true'] .Question-sideColumn,
+html[data-zhihuPlus='true'] .GlobalSideBar,
+html[data-zhihuPlus='true'] .AppHeader,
+html[data-zhihuPlus='true'] [aria-controls="Topstory-zvideo"] {
+  display: none !important;
+}
+/* 布局调整 */
+html[data-zhihuPlus='true'] .SearchMain,
+html[data-zhihuPlus='true'] .Question-mainColumn,
+html[data-zhihuPlus='true'] .Topstory-mainColumn {
+  margin-left: auto;
+  margin-right: auto;
+}
+html[data-zhihuPlus='true'] .Topstory-mainColumn,
+html[data-zhihuPlus='true'] .Question-mainColumn {
+  width: 100%;
+}
+html[data-zhihuPlus='true'] .ContentItem-actions {
+  width: 1000px !important;
+  box-sizing: border-box;
+}
+/* 字体放大 */
+html[data-zhihuPlus='true'] body {
+  font-size: 20px;
+}
+html[data-zhihuPlus='true'] .ContentItem-title {
+  font-size: 28px;
+}
+/* 全局背景色 */
+html[data-zhihuPlus='true'] body {
+  background: #333333;
+}
+
+/* 图片优化 */
+/* html[data-zhihuPlus='true'] .RichContent-inner .origin_image {
+  opacity: 0.65;
+} */
+
+/* 卡片背景色 & 内容工具栏 */
+html[data-zhihuPlus='true'] .Post-content {
+  background: transparent;
+}
+html[data-zhihuPlus='true'] .HotListNavEditPad {
+  background: #c9cdd8;
+  border-color: #b6b8c3;
+}
+html[data-zhihuPlus='true'] .HotListNav-item--deleteButton {
+  background: #a4adb3;
+}
+html[data-zhihuPlus='true'] #TopicMain .Topic-bar,
+html[data-zhihuPlus='true'] .RichContent-actions.is-fixed,
+html[data-zhihuPlus='true'] .Post-RichTextContainer,
+html[data-zhihuPlus='true'] .ProfileHeader-wrapper,
+html[data-zhihuPlus='true'] .CommentsV2-withPagination,
+html[data-zhihuPlus='true'] .CommentEditorV2-inputWrap--active,
+html[data-zhihuPlus='true'] .CommentsV2-footer,
+html[data-zhihuPlus='true'] .CommentListV2-header-divider,
+html[data-zhihuPlus='true'] .Topbar,
+html[data-zhihuPlus='true'] .Modal-inner,
+html[data-zhihuPlus='true'] .InputLike,
+html[data-zhihuPlus='true'] .HotItem,
+html[data-zhihuPlus='true'] .HotListNav-wrapper,
+html[data-zhihuPlus='true'] .ContentItem-actions,
+html[data-zhihuPlus='true'] .Card {
+  background: #bfc2ca;
+}
+html[data-zhihuPlus='true'] .Post-Main .Post-Title {
+  color: #bfc2ca;
+}
+html[data-zhihuPlus='true'] .Post-Header {
+  margin-bottom: 20px;
+}
+html[data-zhihuPlus='true'] .Post-RichTextContainer {
+  box-sizing: border-box;
+  padding: 20px;
+  border-radius: 8px;
+}
+html[data-zhihuPlus='true'] .RichContent-actions {
+  padding-left: 10px;
+}
+html[data-zhihuPlus='true'] .Highlight em {
+  color: #5f649c;
+}
+/* 点赞按钮 */
+html[data-zhihuPlus='true'] .QuestionItem-footer--writeAnswerButton,
+html[data-zhihuPlus='true'] .Post-SideActions button.like .Post-SideActions-icon,
+html[data-zhihuPlus='true'] .Tag,
+html[data-zhihuPlus='true'] .HotListNav-item,
+html[data-zhihuPlus='true'] .VoteButton {
+  background: rgb(138 138 138 / 10%);
+  color: #8590a6;
+}
+html[data-zhihuPlus='true'] .HotListNav-item.is-active {
+  background: rgb(32 43 74 / 10%);
+  color: #8590a6;
+}
+html[data-zhihuPlus='true'] .Button--blue {
+  color: #7d94a9;
+  border-color: #8fa5b9;
+}
+html[data-zhihuPlus='true'] .VoteButton.is-active {
+  background: rgb(51 57 125 / 10%);
+  color: #8590a6;
+}
+html[data-zhihuPlus='true'] .Button--primary.Button--blue {
+  background: rgb(191 194 202);
+  color: #50638a;
+}
+html[data-zhihuPlus='true'] .Modal-closeIcon {
+  fill: #8590a6;
+}
+html[data-zhihuPlus='true'] .Post-SideActions button.like {
+  color: #8590a6;
+}
+/* tab栏 & 卡片 */
+html[data-zhihuPlus='true'] .HotItem:not(:first-child),
+html[data-zhihuPlus='true'] .QuestionItem-footer--writeAnswerButton,
+html[data-zhihuPlus='true'] .Favlists-item,
+html[data-zhihuPlus='true'] .CommentsV2-pagination,
+html[data-zhihuPlus='true'] .CommentsV2-withPagination,
+html[data-zhihuPlus='true'] .CommentEditorV2-inputWrap--active,
+html[data-zhihuPlus='true'] .NestComment .NestComment--child:after,
+html[data-zhihuPlus='true'] .NestComment--rootComment:after,
+html[data-zhihuPlus='true'] .NestComment:not(:last-child):after,
+html[data-zhihuPlus='true'] .Topbar,
+html[data-zhihuPlus='true'] .List-item + .List-item:after,
+html[data-zhihuPlus='true'] .List-header,
+html[data-zhihuPlus='true'] .Topstory--old .HotItem:not(:first-child),
+html[data-zhihuPlus='true'] .Topstory--old .HotListNav,
+html[data-zhihuPlus='true'] .Topstory-mainColumnCard .Card:not(.Topstory-tabCard),
+html[data-zhihuPlus='true'] .Topstory-tabs {
+  border-color: rgb(181 185 197);
+}
+html[data-zhihuPlus='true'] .TopstoryTabs-link {
+  color: #8590a6;
+}
+html[data-zhihuPlus='true'] .TopstoryTabs-link.is-active {
+  color: #333333;
+  font-weight: 600;
+}
+/* 正文详情 */
+html[data-zhihuPlus='true'] .RichContent-inner blockquote {
+  border-color: #a3a3a3;
+}
+/* 查看更多 */
+html[data-zhihuPlus='true'] .ContentItem-more {
+  color: rgb(106 114 119);
+}
+/* 卡片封面 & 标识 */
+html[data-zhihuPlus='true'] .css-18biwo,
+html[data-zhihuPlus='true'] .Avatar,
+html[data-zhihuPlus='true'] .HotItem-img,
+html[data-zhihuPlus='true'] .RichContent-cover {
+  opacity: 0.45;
+}
+/* 返回顶部按钮 */
+html[data-zhihuPlus='true'] .CornerButton {
+  background: #484b54;
+}
+/* 热度序号 */
+html[data-zhihuPlus='true'] .HotItem-hot {
+  color: #4d72ab;
+}
+html[data-zhihuPlus='true'] .Tabs-link.is-active:after,
+html[data-zhihuPlus='true'] .HotItem-label {
+  background-color: rgba(77, 114, 171, 0.48) !important;
+}
+/* 没有更多 */
+html[data-zhihuPlus='true'] .HotList-end {
+  color: #47494c;
+}
+html[data-zhihuPlus='true'] .HotList-end:after,
+html[data-zhihuPlus='true'] .HotList-end:before {
+  background-color: #47494c;
+}
+/* 评论输入框 */
+html[data-zhihuPlus='true'] .ZVideoLinkCard-info,
+html[data-zhihuPlus='true'] .CommentsV2-footer {
+  background-color: #b9beca;
+}
+html[data-zhihuPlus='true'] .CommentsV2-footer {
+  border-color: #b6b9c1;
+}
+
+html[data-zhihuPlus='true'] .CommentEditorV2-inputWrap {
+  border-color: #b6b9c1;
+  background-color: #b9beca;
+}
+
+/* 作者标识 */
+html[data-zhihuPlus='true'] .css-g9eqf4-StrutAlign,
+html[data-zhihuPlus='true'] .css-n99yhz,
+html[data-zhihuPlus='true'] .css-b12ql4 {
+  opacity: 0.65;
+}
+
+/* 评论列表优化 */
+html[data-zhihuPlus='true'] .CommentsV2-openComment-divider,
+html[data-zhihuPlus='true'] .List-headerText {
+  background-color: #bfc2ca;
+}
+html[data-zhihuPlus='true'] .CommentItemV2:not(:first-child):after,
+html[data-zhihuPlus='true'] .CommentsV2-replyNum,
+html[data-zhihuPlus='true'] #TopicMain .Topic-bar,
+html[data-zhihuPlus='true'] .ztext hr,
+html[data-zhihuPlus='true'] .CommentListV2-action:after,
+html[data-zhihuPlus='true'] .MoreAnswers .List-header:after {
+  border-color: #b6b9c1;
+}
+
+/* 话题 */
+html[data-zhihuPlus='true'] .ContentLayout-sideColumn .TopicSideBar .Sticky {
+  top: 10px !important;
+}
+html[data-zhihuPlus='true'] .ContentLayout-sideColumn .Footer {
+  display: none;
+}
+
+/* 视频下载 */
+html[data-zhihuPlus='true'] .RichText-ZVideoLinkCardContainer {
+  position: relative;
+}
+
+html[data-zhihuPlus='true'] .RichText-ZVideoLinkCardContainer .download-btn {
+  position: absolute;
+  right: 12px;
+  bottom: 12px;
+  font-size: 14px;
+  cursor: pointer;
+  color:#8590a6;
+  z-index: 9;
+  display: flex;
+  align-items: center;
+}
+
+html[data-zhihuPlus='true'] .RichText-ZVideoLinkCardContainer .download-btn svg {
+  width: 16px;
+  height: 16px;
+  margin-left: 5px;
+}
+
+html[data-zhihuPlus='true'] .Question-mainColumn .ViewAll {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+
+html[data-zhihuPlus='true'] .Question-mainColumn .ViewAll .QuestionMainAction {
+  width: auto;
+}
+
+html[data-zhihuPlus='true'] .Question-mainColumn .ViewAll #data-zhihuPlusFollowButton.active {
+  border-color: #b6b9c1;
+  background-color: #b9beca;
+}

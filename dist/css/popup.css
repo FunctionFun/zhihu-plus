@@ -1,0 +1,21 @@
+.popup-btn-group {
+  display: block;
+  padding: 8px;
+  width: 148px;
+}
+
+.popup-btn {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 14px;
+  color: #666666;
+}
+
+.popup-btn + .popup-btn {
+  margin-top: 10px;
+}
+
+.popup-btn .switch-box {
+  margin-left: 10px;
+}
