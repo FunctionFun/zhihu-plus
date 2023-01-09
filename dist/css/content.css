@@ -66,6 +66,7 @@ html[data-zhihuPlus='true'] .ContentItem-actions {
 /* 字体放大 */
 html[data-zhihuPlus='true'] body {
   font-size: 20px;
+  /* font-family: "霞骛文楷 GB 屏幕阅读版"; */
 }
 html[data-zhihuPlus='true'] .ContentItem-title {
   font-size: 28px;
@@ -155,6 +156,7 @@ html[data-zhihuPlus='true'] .Post-SideActions button.like {
   color: #8590a6;
 }
 /* tab栏 & 卡片 */
+
 html[data-zhihuPlus='true'] .Button--grey,
 html[data-zhihuPlus='true'] .Button--primary.Button--blue,
 html[data-zhihuPlus='true'] .HotItem:not(:first-child),
@@ -183,6 +185,7 @@ html[data-zhihuPlus='true'] .TopstoryTabs-link.is-active {
   font-weight: 600;
 }
 /* 正文详情 */
+html[data-zhihuPlus='true'] .css-4em6pe .LinkCard.new,
 html[data-zhihuPlus='true'] .css-wgpue5 {
   background-color: #b9beca;
 }
