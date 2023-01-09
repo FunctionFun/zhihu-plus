@@ -27,6 +27,7 @@ html[data-zhihuPlus='true'] .CommentListV2:hover::-webkit-scrollbar-thumb {
   background-color: rgb(133 144 166 / 0.6);
 }
 /* 隐藏界面 */
+html[data-zhihuPlus='true'] .css-1qyytj7,
 html[data-zhihuPlus='true'] .KfeCollection-PaidAnswerFooter,
 html[data-zhihuPlus='true'] .Pc-word,
 html[data-zhihuPlus='true'] .Topstory-mainColumn > .Card,
@@ -217,20 +218,30 @@ html[data-zhihuPlus='true'] .HotList-end:before {
   background-color: #47494c;
 }
 /* 评论输入框 */
+html[data-zhihuPlus='true'] .css-805ti0,
 html[data-zhihuPlus='true'] .ZVideoLinkCard-info,
 html[data-zhihuPlus='true'] .CommentsV2-footer {
   background-color: #b9beca;
 }
+html[data-zhihuPlus='true'] .css-1yeqy9h::before,
+html[data-zhihuPlus='true'] .css-vfhjb4::before,
+html[data-zhihuPlus='true'] .css-we6n55::before,
+html[data-zhihuPlus='true'] .css-z07uxh,
+html[data-zhihuPlus='true'] .css-x0pxoz,
 html[data-zhihuPlus='true'] .CommentsV2-footer {
   border-color: #b6b9c1;
 }
 
+html[data-zhihuPlus='true'] .css-1hnxfhy,
 html[data-zhihuPlus='true'] .CommentEditorV2-inputWrap {
   border-color: #b6b9c1;
   background-color: #b9beca;
 }
 
 /* 作者标识 */
+html[data-zhihuPlus='true'] .AuthorInfo {
+  max-width: 100%;
+}
 html[data-zhihuPlus='true'] .css-g9eqf4-StrutAlign,
 html[data-zhihuPlus='true'] .css-n99yhz,
 html[data-zhihuPlus='true'] .css-b12ql4 {
@@ -238,6 +249,7 @@ html[data-zhihuPlus='true'] .css-b12ql4 {
 }
 
 /* 评论列表优化 */
+html[data-zhihuPlus='true'] .css-gjiv4z,
 html[data-zhihuPlus='true'] .CommentsV2-openComment-divider,
 html[data-zhihuPlus='true'] .List-headerText {
   background-color: #bfc2ca;
@@ -249,6 +261,9 @@ html[data-zhihuPlus='true'] .ztext hr,
 html[data-zhihuPlus='true'] .CommentListV2-action:after,
 html[data-zhihuPlus='true'] .MoreAnswers .List-header:after {
   border-color: #b6b9c1;
+}
+html[data-zhihuPlus='true'] .css-33kuns {
+  color: #8590a6;
 }
 
 /* 话题 */
