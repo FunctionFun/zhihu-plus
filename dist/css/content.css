@@ -31,6 +31,7 @@ html[data-zhihuPlus='true'] .CommentListV2:hover::-webkit-scrollbar-thumb {
   background-color: rgb(133 144 166 / 0.6);
 }
 /* 隐藏界面 */
+html[data-zhihuPlus='true'] .css-4cffwv,
 html[data-zhihuPlus='true'] .RichText-ADLinkCardContainer,
 html[data-zhihuPlus='true'] .css-1qyytj7,
 html[data-zhihuPlus='true'] .KfeCollection-PaidAnswerFooter,
@@ -46,7 +47,7 @@ html[data-zhihuPlus='true'] .TopstoryMain .TopstoryItem--advertCard,
 html[data-zhihuPlus='true'] .RichText-MCNLinkCardContainer,
 html[data-zhihuPlus='true'] .Reward,
 html[data-zhihuPlus='true'] .ContentItem-meta .AuthorInfo + .Labels,
-html[data-zhihuPlus='true'] .QuestionHeader,
+html[data-zhihuPlus='true'] .QAppHeader-inner,
 html[data-zhihuPlus='true'] .Question-sideColumn,
 html[data-zhihuPlus='true'] .GlobalSideBar,
 html[data-zhihuPlus='true'] .AppHeader,
@@ -94,6 +95,8 @@ html[data-zhihuPlus='true'] .HotListNavEditPad {
 html[data-zhihuPlus='true'] .HotListNav-item--deleteButton {
   background: #a4adb3;
 }
+html[data-zhihuPlus='true'] .QuestionHeader-footer,
+html[data-zhihuPlus='true'] .QuestionHeader,
 html[data-zhihuPlus='true'] #TopicMain .Topic-bar,
 html[data-zhihuPlus='true'] .RichContent-actions.is-fixed,
 html[data-zhihuPlus='true'] .Post-RichTextContainer,
@@ -137,6 +140,10 @@ html[data-zhihuPlus='true'] .VoteButton {
   background: rgb(138 138 138 / 10%);
   color: #8590a6;
 }
+html[data-zhihuPlus='true'] .epMJl0lFQuYbC7jrwr_o.ZdfrHW7Ef5ZjwFiiBJuS:hover {
+  color: #bfc2ca;
+}
+html[data-zhihuPlus='true'] .Button--secondary.Button--blue:hover,
 html[data-zhihuPlus='true'] .HotListNav-item.is-active {
   background: rgb(32 43 74 / 10%);
   color: #8590a6;
@@ -154,11 +161,17 @@ html[data-zhihuPlus='true'] .VoteButton.is-active {
 html[data-zhihuPlus='true'] .Modal-closeIcon {
   fill: #8590a6;
 }
+html[data-zhihuPlus='true'] .RichContent--unescapable.is-collapsed .ContentItem-rightButton,
+html[data-zhihuPlus='true'] .GoodQuestionAction-highLightBtn,
+html[data-zhihuPlus='true'] .GoodQuestionAction-highLightBtn:hover {
+  color: #535658;
+}
 html[data-zhihuPlus='true'] .Post-SideActions button.like {
   color: #8590a6;
 }
 /* tab栏 & 卡片 */
-
+html[data-zhihuPlus='true'] .JmYzaky7MEPMFcJDLNMG,
+html[data-zhihuPlus='true'] .NumberBoard--divider .NumberBoard-item+.NumberBoard-item .NumberBoard-itemInner,
 html[data-zhihuPlus='true'] .Button--grey,
 html[data-zhihuPlus='true'] .Button--primary.Button--blue,
 html[data-zhihuPlus='true'] .HotItem:not(:first-child),
@@ -247,6 +260,10 @@ html[data-zhihuPlus='true'] .HotList-end:before {
 html[data-zhihuPlus='true'] .css-805ti0 {
   background-color: rgb(191, 194, 202);
 }
+html[data-zhihuPlus='true'] .css-18opwoy .Button--grey {
+  background: transparent;
+}
+html[data-zhihuPlus='true'] .css-1ggwojn,
 html[data-zhihuPlus='true'] .css-x0pxoz,
 html[data-zhihuPlus='true'] .ZVideoLinkCard-info,
 html[data-zhihuPlus='true'] .CommentsV2-footer {
@@ -271,10 +288,18 @@ html[data-zhihuPlus='true'] .CommentEditorV2-inputWrap {
 html[data-zhihuPlus='true'] .AuthorInfo {
   max-width: 100%;
 }
+html[data-zhihuPlus='true'] .css-1qe0v6x,
 html[data-zhihuPlus='true'] .css-g9eqf4-StrutAlign,
 html[data-zhihuPlus='true'] .css-n99yhz,
 html[data-zhihuPlus='true'] .css-b12ql4 {
   opacity: 0.65;
+}
+html[data-zhihuPlus='true'] .css-h9ndtl {
+  color: rgb(133, 144, 166);
+}
+html[data-zhihuPlus='true'] .css-h9ndtl::before {
+  border-color: rgb(133, 144, 166);
+  border-radius: 8px;
 }
 
 /* 评论列表优化 */

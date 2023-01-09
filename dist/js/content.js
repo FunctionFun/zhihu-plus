@@ -71,25 +71,4 @@ $(function () {
       })
     }
   )
-
-  $('.Question-mainColumn .ViewAll').append(`<div id="FollowBtnWrap"></div>`)
-  isFollow = $('.QuestionButtonGroup .FollowButton').html() === '已关注'
-
-  if (config.zhihuPlus) {
-    renderFollowBtn()
-  }
 })
-
-$(document).on('click', '#zhihuPlusFollowButton', function () {
-  isFollow = !isFollow
-  $('.FollowButton').click()
-  renderFollowBtn()
-})
-
-function renderFollowBtn() {
-  $('#FollowBtnWrap').html(
-    `<button type="button" id="zhihuPlusFollowButton" class="Button Button--primary Button--blue ${
-      isFollow ? 'active' : ''
-    }">${isFollow ? '已关注' : '关注'}</button>`
-  )
-}
