@@ -27,6 +27,7 @@ html[data-zhihuPlus='true'] .CommentListV2:hover::-webkit-scrollbar-thumb {
   background-color: rgb(133 144 166 / 0.6);
 }
 /* 隐藏界面 */
+html[data-zhihuPlus='true'] .RichText-ADLinkCardContainer,
 html[data-zhihuPlus='true'] .css-1qyytj7,
 html[data-zhihuPlus='true'] .KfeCollection-PaidAnswerFooter,
 html[data-zhihuPlus='true'] .Pc-word,
@@ -65,11 +66,8 @@ html[data-zhihuPlus='true'] .ContentItem-actions {
 }
 /* 字体放大 */
 html[data-zhihuPlus='true'] body {
-  font-size: 20px;
-  /* font-family: "霞骛文楷 GB 屏幕阅读版"; */
-}
-html[data-zhihuPlus='true'] .ContentItem-title {
-  font-size: 28px;
+  font-size: 16px;
+  font-family: "霞骛文楷 GB 屏幕阅读版";
 }
 /* 全局背景色 */
 html[data-zhihuPlus='true'] body {
@@ -77,9 +75,9 @@ html[data-zhihuPlus='true'] body {
 }
 
 /* 图片优化 */
-/* html[data-zhihuPlus='true'] .RichContent-inner .origin_image {
-  opacity: 0.65;
-} */
+html[data-zhihuPlus='true'] .RichContent-inner .origin_image {
+  width: 200px;
+}
 
 /* 卡片背景色 & 内容工具栏 */
 html[data-zhihuPlus='true'] .Post-content {
