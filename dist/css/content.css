@@ -1,4 +1,5 @@
 /* 滚动条优化 */
+html[data-zhihuPlus='true'] .css-34podr::-webkit-scrollbar,
 html[data-zhihuPlus='true'] .Favlists-items::-webkit-scrollbar,
 html[data-zhihuPlus='true'] .highlight pre::-webkit-scrollbar,
 html[data-zhihuPlus='true'] body::-webkit-scrollbar,
@@ -6,6 +7,7 @@ html[data-zhihuPlus='true'] .CommentListV2::-webkit-scrollbar {
   width: 4px;
   height: 4px;
 }
+html[data-zhihuPlus='true'] .css-34podr::-webkit-scrollbar-thumb,
 html[data-zhihuPlus='true'] .Favlists-items::-webkit-scrollbar-thumb,
 html[data-zhihuPlus='true'] .highlight pre::-webkit-scrollbar-thumb,
 html[data-zhihuPlus='true'] body::-webkit-scrollbar-thumb,
@@ -14,12 +16,14 @@ html[data-zhihuPlus='true'] .CommentListV2::-webkit-scrollbar-thumb {
   transition: 0.2s;
   border-radius: 2px;
 }
+html[data-zhihuPlus='true'] .css-34podr::-webkit-scrollbar-track,
 html[data-zhihuPlus='true'] .Favlists-items::-webkit-scrollbar-track,
 html[data-zhihuPlus='true'] .highlight pre::-webkit-scrollbar-track,
 html[data-zhihuPlus='true'] body::-webkit-scrollbar-track,
 html[data-zhihuPlus='true'] .CommentListV2::-webkit-scrollbar-track {
   background-color: rgba(0, 0, 0, 0);
 }
+html[data-zhihuPlus='true'] .css-34podr::-webkit-scrollbar-thumb,
 html[data-zhihuPlus='true'] .Favlists-items::-webkit-scrollbar-thumb,
 html[data-zhihuPlus='true'] .highlight pre::-webkit-scrollbar-thumb,
 html[data-zhihuPlus='true'] body::-webkit-scrollbar-thumb,
@@ -175,6 +179,9 @@ html[data-zhihuPlus='true'] .Topstory-mainColumnCard .Card:not(.Topstory-tabCard
 html[data-zhihuPlus='true'] .Topstory-tabs {
   border-color: rgb(181 185 197);
 }
+html[data-zhihuPlus='true'] .css-1acz8qk {
+  fill: #8590a6;
+}
 html[data-zhihuPlus='true'] .TopstoryTabs-link {
   color: #8590a6;
 }
@@ -183,6 +190,7 @@ html[data-zhihuPlus='true'] .TopstoryTabs-link.is-active {
   font-weight: 600;
 }
 /* 正文详情 */
+html[data-zhihuPlus='true'] .css-12yl4eo,
 html[data-zhihuPlus='true'] .css-4em6pe .LinkCard.new,
 html[data-zhihuPlus='true'] .css-wgpue5 {
   background-color: #b9beca;
@@ -191,6 +199,7 @@ html[data-zhihuPlus='true'] .css-1s7k1vc,
 html[data-zhihuPlus='true'] .RichContent-inner blockquote {
   border-color: #a3a3a3;
 }
+html[data-zhihuPlus='true'] .css-1evwjhc,
 html[data-zhihuPlus='true'] .css-c29erj {
   background-color: #b9beca;
   color: #8590a6;
