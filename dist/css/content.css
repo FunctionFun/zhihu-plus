@@ -203,15 +203,24 @@ html[data-zhihuPlus='true'] .TopstoryTabs-link.is-active {
   font-weight: 600;
 }
 /* 正文详情 */
+html[data-zhihuPlus='true'] .css-wcswpi,
 html[data-zhihuPlus='true'] .css-12yl4eo,
 html[data-zhihuPlus='true'] .css-4em6pe .LinkCard.new,
 html[data-zhihuPlus='true'] .css-wgpue5 {
   background-color: #b9beca;
 }
+html[data-zhihuPlus='true'] .css-qj8kyw,
+html[data-zhihuPlus='true'] .css-klsxws,
+html[data-zhihuPlus='true'] .css-wcswpi,
 html[data-zhihuPlus='true'] .css-1s7k1vc,
 html[data-zhihuPlus='true'] .RichContent-inner blockquote {
   border-color: #a3a3a3;
 }
+html[data-zhihuPlus='true'] .css-wcswpi {
+  border-radius: 8px;
+}
+html[data-zhihuPlus='true'] .css-qj8kyw,
+html[data-zhihuPlus='true'] .css-klsxws,
 html[data-zhihuPlus='true'] .css-1evwjhc,
 html[data-zhihuPlus='true'] .css-c29erj {
   background-color: #b9beca;
@@ -226,6 +235,7 @@ html[data-zhihuPlus='true'] .css-17oyyq4 {
   color: #8590a6;
 }
 /* 查看更多 */
+html[data-zhihuPlus='true'] .css-70m3nf,
 html[data-zhihuPlus='true'] .ContentItem-more {
   color: rgb(106 114 119);
 }
