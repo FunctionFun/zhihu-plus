@@ -138,17 +138,15 @@ html[data-zhihuPlus='true'] .HotListNav-item.is-active {
   background: rgb(32 43 74 / 10%);
   color: #8590a6;
 }
+html[data-zhihuPlus='true'] .Button--grey,
+html[data-zhihuPlus='true'] .Button--primary.Button--blue,
 html[data-zhihuPlus='true'] .Button--blue {
-  color: #7d94a9;
-  border-color: #8fa5b9;
+  background: rgb(138 138 138 / 10%);
+  color: #8590a6;
 }
 html[data-zhihuPlus='true'] .VoteButton.is-active {
   background: rgb(51 57 125 / 10%);
   color: #8590a6;
-}
-html[data-zhihuPlus='true'] .Button--primary.Button--blue {
-  background: rgb(191 194 202);
-  color: #50638a;
 }
 html[data-zhihuPlus='true'] .Modal-closeIcon {
   fill: #8590a6;
@@ -157,6 +155,8 @@ html[data-zhihuPlus='true'] .Post-SideActions button.like {
   color: #8590a6;
 }
 /* tab栏 & 卡片 */
+html[data-zhihuPlus='true'] .Button--grey,
+html[data-zhihuPlus='true'] .Button--primary.Button--blue,
 html[data-zhihuPlus='true'] .HotItem:not(:first-child),
 html[data-zhihuPlus='true'] .QuestionItem-footer--writeAnswerButton,
 html[data-zhihuPlus='true'] .Favlists-item,
@@ -183,8 +183,24 @@ html[data-zhihuPlus='true'] .TopstoryTabs-link.is-active {
   font-weight: 600;
 }
 /* 正文详情 */
+html[data-zhihuPlus='true'] .css-wgpue5 {
+  background-color: #b9beca;
+}
+html[data-zhihuPlus='true'] .css-1s7k1vc,
 html[data-zhihuPlus='true'] .RichContent-inner blockquote {
   border-color: #a3a3a3;
+}
+html[data-zhihuPlus='true'] .css-c29erj {
+  background-color: #b9beca;
+  color: #8590a6;
+}
+html[data-zhihuPlus='true'] .css-106u01g {
+  color: rgb(186 188 195);
+  background: rgb(133 144 166 / 68%);
+}
+html[data-zhihuPlus='true'] .css-17oyyq4 {
+  background: rgb(138 138 138 / 10%);
+  color: #8590a6;
 }
 /* 查看更多 */
 html[data-zhihuPlus='true'] .ContentItem-more {
