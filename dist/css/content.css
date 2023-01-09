@@ -244,7 +244,10 @@ html[data-zhihuPlus='true'] .HotList-end:before {
   background-color: #47494c;
 }
 /* 评论输入框 */
-html[data-zhihuPlus='true'] .css-805ti0,
+html[data-zhihuPlus='true'] .css-805ti0 {
+  background-color: rgb(191, 194, 202);
+}
+html[data-zhihuPlus='true'] .css-x0pxoz,
 html[data-zhihuPlus='true'] .ZVideoLinkCard-info,
 html[data-zhihuPlus='true'] .CommentsV2-footer {
   background-color: #b9beca;
